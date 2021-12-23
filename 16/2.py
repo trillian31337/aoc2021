@@ -1,8 +1,4 @@
-from termcolor import colored
-import re
 import sys
-import numpy as np
-from copy import deepcopy
 
 class BITSpacket():
 	def __init__(self,version, typeid, lentype, length):
